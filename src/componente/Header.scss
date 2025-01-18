@@ -1,0 +1,123 @@
+#meuNome{
+    color: #ffffff;
+    font-family: monospace;
+    
+    &::after{
+        content: " ";
+        animation: digitacao 8s linear infinite;
+    }
+}
+
+#sobreMimTxt{
+    color: #ffffff;
+    font-family: monospace;
+    text-align: center;
+
+}
+
+@keyframes digitacao {
+    0% {
+        content: "G";
+    }
+    5% {
+        content: "Gu";
+    }
+    10% {
+        content: "Gus";
+    }
+    15% {
+        content: "Gusta";
+    }
+    20% {
+        content: "Gustavo";
+    }
+    25% {
+        content: "Gustavo Caw";
+    }
+    30% {
+        content: "Gustavo Cawth";
+    }
+    35% {
+        content: "Gustavo Cawthon";
+    }
+    40% {
+        content: "Gustavo Cawthon";
+    }
+    45% {
+        content: "Gustavo Cawt";
+    }
+    50% {
+        content: "Gustavo";
+    }
+    55% {
+        content: "Gus";
+    }
+    60% {
+        content: "Des";
+    }
+    65% {
+        content: "Desenv";
+    }
+    70% {
+        content: "Desenvol";
+    }
+    75% {
+        content: "Desenvolvedor";
+    }
+    80% {
+        content: "Desenvolvedor Fr";
+    }
+    85% {
+        content: "Desenvolvedor Front";
+    }
+    90% {
+        content: "Desenvolvedor Front-end";
+    }
+    95% {
+        content: "Desenvolvedor Front-end";
+    }
+    96% {
+        content: "Desenvolvedor Front-";
+    }
+    97% {
+        content: "Desenvolvedor Fr";
+    }
+    98% {
+        content: "Desenvolved";
+    }
+    99% {
+        content: "Desenvol";
+    }
+    100% {
+        content: "Dese";
+    }
+}
+
+@mixin linksFormatacao($cor, $corHover){
+  transition: 0.4s;
+  color: #ffffff;
+  z-index: 46;
+  margin-left: 10px;
+  font-size: x-large;
+
+  &:hover{
+    color: $corHover;
+  }
+}
+
+#github{
+    @include linksFormatacao(#ffffff, #000000 )
+}
+
+#youtube{
+    @include linksFormatacao(#ffffff, #ff0404 )
+}
+
+#linkedin{
+    @include linksFormatacao(#ffffff, #007bff )
+}
+
+#links{
+  display: flex;
+  justify-content: space-around;
+}

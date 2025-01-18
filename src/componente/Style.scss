@@ -1,0 +1,156 @@
+body{
+    background-color: #1e1e2f
+}
+
+.titulo{
+    color: #e63946;
+    font-family: monospace;
+    text-shadow: 5px 5px 3px black;
+}
+
+/*formatacao para Projetos.jsx*/
+#projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 9px;
+}
+
+.projetos{
+    background-color: #29293d;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    border-radius: 6px;
+    max-width: 180px;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    box-shadow: 5px 5px 3px black;
+    gap: 20px;
+    user-select: none;
+}
+
+.projetoImage{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 9px;
+    display: flex;
+}
+
+.linksProjetos{
+    background-color: #e63946;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px;
+    margin-top: 6px;
+    border-radius: 6px;
+    transition: 0.4s;
+    font-family: monospace;
+    &:hover{
+        background-color: #712020;
+        font-size: 15px;
+    }
+}
+
+.linhaProjetos{
+    display: flex;
+    overflow-x: scroll;
+    flex-wrap: row;
+    gap: 40px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px){ 
+    .projetos{
+        gap: 5px;
+        padding: 10px;
+        width: auto !important;
+        box-sizing: border-box;
+        position: relative
+
+        img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        h4, p{
+            width: 300px;
+     }
+   }
+}
+
+@media screen and (min-width: 401px) and (max-width: 479px){ 
+    .projetos{
+        gap: 5px;
+        padding: 10px;
+        width: auto !important;
+        box-sizing: border-box;
+        position: relative
+
+        img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        h4, p{
+            width: 300px;
+     }
+   }
+}
+
+/*formatacao para Sobre.jsx*/
+#sobreMim{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 9px;
+    background-color: #29293d;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+
+    section{
+        color: #ffffff
+    }
+}
+
+.imgTecnologias{
+    width:70px;
+    height:60px;
+}
+
+#habilidades{
+    overflow: hidden;
+    display: flex;
+}
+
+#tec{
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+}
+
+@keyframes scrollTecnologias{
+    0%{
+        transform: translateX(100%);
+    }
+
+    50%{
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(100%);
+    }
+}

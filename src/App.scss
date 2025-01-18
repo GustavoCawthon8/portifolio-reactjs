@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+    h1{
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        span{
+            color: red
+        }
+    }
+}
+
