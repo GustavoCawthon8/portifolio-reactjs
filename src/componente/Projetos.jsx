@@ -141,7 +141,7 @@ export default function Projetos(){
                     <p>Esse site mostra o clima em tempo real de cada cidade do Brasil.
                          tecnologias utilizada: <b>HTML</b>, <b>Css</b> e <b>javascript</b>
                     </p>
-                    <a href={linkProjeto10} className="linksProjetos">Ver Projeto</a>
+                    <a href={linkProjeto11} className="linksProjetos">Ver Projeto</a>
                 </div>
 
               <div className="projetos">
