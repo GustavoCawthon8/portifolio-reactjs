@@ -11,6 +11,7 @@ import Projeto8 from './images/projetos/projeto8.jpg'
 import Projeto9 from './images/projetos/projeto9.jpg'
 import Projeto10 from './images/projetos/projeto10.jpg'
 import Projeto11 from './images/projetos/projeto11.jpg'
+import Projeto12 from './images/projetos/projeto12.jpg' 
 
 export default function Projetos(){
     const linkProjeto1 = "https://gustavocawthon.netlify.app/location/home";
@@ -22,9 +23,9 @@ export default function Projetos(){
     const linkProjeto7 = "https://notas-da-unidade.vercel.app/";
     const linkProjeto8 = "https://listas-de-tarefas-ruddy.vercel.app/";
     const linkProjeto9 = "https://funcaoneural.netlify.app/";
-    const linkProjeto10 = "https://gustavocawthon.netlify.app/location/home";
+    const linkProjeto10 = "https://gustavocawthon8.github.io/Jogo-de-bau/";
     const linkProjeto11 = "https://brasilclima.netlify.app/"
-
+    const linkProjeto12 = "https://gustavocawthondev.vercel.app/";
     const screenWidth = window.innerWidth;
     console.log("Largura da tela: " + screenWidth + "px");
 
@@ -142,6 +143,16 @@ export default function Projetos(){
                     </p>
                     <a href={linkProjeto10} className="linksProjetos">Ver Projeto</a>
                 </div>
+
+              <div className="projetos">
+                <img src={Projeto12} className="projetoImage"></img>
+                <h4>Portfólio</h4>
+                <p>Este portfólio online foi criado para apresentar meus projetos e minhas habilidades como desenvolvedor front-end. O objetivo é fornecer uma visão completa do meu trabalho e experiência.
+                     tecnologias utilizada: <b>ReactJs</b> e <b>Scss</b>
+                </p>
+                <a href={linkProjeto12} className="linksProjetos">Ver Projeto</a>
+            </div>
+
                 </section>  
 
             </div>

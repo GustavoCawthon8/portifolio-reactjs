@@ -8,7 +8,8 @@ import BootstrapImg from './images/tecnologias/bootstrap.png'
 import TailwindImg from './images/tecnologias/tailwind.png'
 import ReactImg from './images/tecnologias/react.png'
 import GitImg from './images/tecnologias/git.png'
-import GoImg from './images/tecnologias/go.png'
+import NodeImg from './images/tecnologias/node.png'
+import FirebaseImg from './images/tecnologias/firebase.png'
 
 
 
@@ -32,15 +33,12 @@ export default function Sobre(props){
                     trabalho com tecnologias como ReactJS, Sass,
                      Bootstrap e Tailwind, no entanto, meu objetivo 
                      é expandir minhas habilidades para o back-end, 
-                     focando no desenvolvimento de APIs com GoLang.
-                      Além disso, também planejo estudar Node.js para 
-                      ampliar ainda mais meu conhecimento na área de 
-                      desenvolvimento.
+                     focando no desenvolvimento de APIs com NodeJs.
                 </section>
                 <section className='paragrafos'>
                       Já desenvolvi alguns aplicativos Android utilizando 
                       Java, mas, por falta de recursos, acabei 
-                      interrompendo a criação de apps nessa plataforma.
+                      interrompendo a criação de apps.
                </section>
                    
 
@@ -60,8 +58,9 @@ export default function Sobre(props){
                     <img className='imgTecnologias' src={TailwindImg}></img>
                     <img className='imgTecnologias' src={ReactImg}></img>
                     <img className='imgTecnologias' src={GitImg}></img>
-                    <img className='imgTecnologias' src={GoImg}></img>
+                    <img className='imgTecnologias' src={NodeImg}></img>
                     <img className='imgTecnologias' src={SassImg}></img>
+                    <img className='imgTecnologias' src={FirebaseImg}></img>
                 </div>
                 </section>
             </div>
