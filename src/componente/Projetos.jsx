@@ -12,6 +12,8 @@ import Projeto9 from './images/projetos/projeto9.jpg'
 import Projeto10 from './images/projetos/projeto10.jpg'
 import Projeto11 from './images/projetos/projeto11.jpg'
 import Projeto12 from './images/projetos/projeto12.jpg' 
+import Projeto13 from './images/projetos/projeto13.jpg' 
+import Projeto14 from './images/projetos/projeto14.jpg' 
 
 export default function Projetos(){
     const linkProjeto1 = "https://gustavocawthon.netlify.app/location/home";
@@ -26,6 +28,11 @@ export default function Projetos(){
     const linkProjeto10 = "https://gustavocawthon8.github.io/Jogo-de-bau/";
     const linkProjeto11 = "https://brasilclima.netlify.app/"
     const linkProjeto12 = "https://gustavocawthondev.vercel.app/";
+    const linkProjeto13 = "https://listhub-five.vercel.app/"
+    const linkProjeto14 = "https://calculadora-reactjs-seven.vercel.app/";
+
+
+
     const screenWidth = window.innerWidth;
     console.log("Largura da tela: " + screenWidth + "px");
 
@@ -153,7 +160,29 @@ export default function Projetos(){
                 <a href={linkProjeto12} className="linksProjetos">Ver Projeto</a>
             </div>
 
-                </section>  
+        </section>  
+
+        <section className="linhaProjetos">   
+                <div className="projetos">
+                    <img src={Projeto13} className="projetoImage"></img>
+                    <h4>ListHub</h4>
+                    <p>Lista de tarfeas completa com sistema de login, e que salva as informações no banco de dados, algumas pessoas, usam esse projeto.
+                         tecnologias utilizada: <b>ReactJs</b>, <b>Css</b> e <b>Firebase</b>
+                    </p>
+                    <a href={linkProjeto13} className="linksProjetos">Ver Projeto</a>
+                </div>
+
+                <div className="projetos">
+                    <img src={Projeto14} className="projetoImage"></img>
+                    <h4>Calculadora</h4>
+                    <p>Uma calculadora funcional e responsivo.
+                         tecnologias utilizada: <b>ReactJs</b> e <b>Scss</b>
+                    </p>
+                    <a href={linkProjeto14} className="linksProjetos">Ver Projeto</a>
+                </div>
+
+        </section>  
+
 
             </div>
         </section>
