@@ -27,7 +27,7 @@ export default function Header(){
                 <p id="sobreMimTxt">Olá, meu nome é Gustavo e sou um desenvolvedor front-end especializado
                      em <b>HTML</b>, <b>Sass</b>, <b>Tailwind</b> e <b>ReactJs</b>. Atualmente, estou expandindo meus
                       conhecimentos e planejando ingressar no back-end, com foco no desenvolvimento 
-                      de APIs utilizando <b>GoLang</b>.
+                      de APIs utilizando <b>NodeJs</b>.
                 </p>\
                 <br></br>
                 <nav id="links">
