@@ -14,6 +14,7 @@ import Projeto11 from './images/projetos/projeto11.jpg'
 import Projeto12 from './images/projetos/projeto12.jpg' 
 import Projeto13 from './images/projetos/projeto13.jpg' 
 import Projeto14 from './images/projetos/projeto14.jpg' 
+import Projeto15 from './images/projetos/projeto15.jpg'
 
 export default function Projetos(){
     const linkProjeto1 = "https://gustavocawthon.netlify.app/location/home";
@@ -30,12 +31,12 @@ export default function Projetos(){
     const linkProjeto12 = "https://gustavocawthondev.vercel.app/";
     const linkProjeto13 = "https://listhub-five.vercel.app/"
     const linkProjeto14 = "https://calculadora-reactjs-seven.vercel.app/";
+    const linkProjeto15 = "https://hypersomnia-api.vercel.app/";
 
-
-
+    /*
     const screenWidth = window.innerWidth;
     console.log("Largura da tela: " + screenWidth + "px");
-
+    */
     return(
         <section>
             <div>
@@ -50,7 +51,7 @@ export default function Projetos(){
                     <p>Este projeto foi criado para o meu canal do YouTube.
                          Ele tem um sistema de admin externo com a funciona
                          lidade de postar novas postagens.
-                         tecnologias utilizadas: <b>HTML</b>, <b>Css</b>, <b>javascript</b> e <b>firebase</b>
+                         tecnologias utilizadas: <b>HTML</b>, <b>CSS</b>, <b>EcmaScript</b> e <b>firebase</b>
                     </p>
                     <a href={linkProjeto1} className="linksProjetos">Ver Projeto</a>
                 </div>
@@ -59,7 +60,7 @@ export default function Projetos(){
                     <img src={Projeto2} className="projetoImage"></img>
                     <h4>App de Música</h4>
                     <p>Site de música moderno, totalmente responsivo, ele foi feito para os meus estudos de flexbox.
-                         tecnologias utilizada: <b>HTML</b>, <b>Css(flexbox)</b>, <b>javascript</b> e <b>bootstrap icon</b>
+                         tecnologias utilizada: <b>HTML</b>, <b>CSS(flexbox)</b>, <b>EcmaScript</b> e <b>bootstrap icon</b>
                     </p>
                     <a href={linkProjeto2} className="linksProjetos">Ver Projeto</a>
                 </div>
@@ -68,7 +69,7 @@ export default function Projetos(){
                     <img src={Projeto3} className="projetoImage"></img>
                     <h4>Site de Vendas</h4>
                     <p>Lading page feito em 12 minutos, esse site foi feito para divulgar o meu ebook de programação, ele é totalmente flexível.
-                         tecnologias utilizada: <b>HTML</b> e <b>Css(flexbox)</b>
+                         tecnologias utilizada: <b>HTML</b> e <b>CSS(flexbox)</b>
                     </p>
                     <a href={linkProjeto3} className="linksProjetos">Ver Projeto</a>
                 </div>
@@ -79,7 +80,7 @@ export default function Projetos(){
                     <img src={Projeto4} className="projetoImage"></img>
                     <h4>Flexstrap Lib</h4>
                     <p>Esse é um projeto que foi pensando para facilitar os desenvolvedores no desenvolvimento dos sites web, ele funciona muito bem, mas ele foi descontinuado.
-                         tecnologias utilizada: <b>Css</b>
+                         tecnologias utilizada: <b>CSS</b>
                     </p>
                     <a href={linkProjeto4} className="linksProjetos">Ver Projeto</a>
                 </div>
@@ -88,7 +89,7 @@ export default function Projetos(){
                     <img src={Projeto5} className="projetoImage"></img>
                     <h4>Gustavo Music</h4>
                     <p>Esse projeto é um mp3, ele contem mais de 10 músicas, esse site é totalmente flexível.
-                         tecnologias utilizada: <b>HTML</b>, <b>Css(flexbox)</b>, <b>bootstrap icon</b> e <b>javascript</b>
+                         tecnologias utilizada: <b>HTML</b>, <b>CSS(flexbox)</b>, <b>bootstrap icon</b> e <b>EcmaScript</b>
                     </p>
                     <a href={linkProjeto5} className="linksProjetos">Ver Projeto</a>
                 </div>
@@ -97,7 +98,7 @@ export default function Projetos(){
                     <img src={Projeto6} className="projetoImage"></img>
                     <h4>Cube Surf</h4>
                     <p>Esse é um jogo 3d feito sem engine, criei ele totalmente do zero com meus estudos de JavaScript 3d(webgl).
-                         tecnologias utilizada: <b>HTML</b> e <b>javascript/three.js</b>
+                         tecnologias utilizada: <b>HTML</b> e <b>EcmaScript/Three.js</b>
                     </p>
                     <a href={linkProjeto6} className="linksProjetos">Ver Projeto</a>
                 </div>
@@ -137,7 +138,7 @@ export default function Projetos(){
                     <img src={Projeto10} className="projetoImage"></img>
                     <h4>BauMoney</h4>
                     <p>Esse projeto é um jogo que usei para treinar minha lógica de programação, o objetivo dele é pegar todos os dinheiro, e evitar pegar os tijolos.
-                         tecnologias utilizada: <b>HTML</b>, <b>Bootstrap icon</b> e <b>javascript</b>
+                         tecnologias utilizada: <b>HTML</b>, <b>Bootstrap icon</b> e <b>EcmaScript</b>
                     </p>
                     <a href={linkProjeto10} className="linksProjetos">Ver Projeto</a>
                 </div>
@@ -146,7 +147,7 @@ export default function Projetos(){
                     <img src={Projeto11} className="projetoImage"></img>
                     <h4>Brasil Clima</h4>
                     <p>Esse site mostra o clima em tempo real de cada cidade do Brasil.
-                         tecnologias utilizada: <b>HTML</b>, <b>Css</b> e <b>javascript</b>
+                         tecnologias utilizada: <b>HTML</b>, <b>CSS</b> e <b>EcmaScript</b>
                     </p>
                     <a href={linkProjeto11} className="linksProjetos">Ver Projeto</a>
                 </div>
@@ -179,6 +180,15 @@ export default function Projetos(){
                          tecnologias utilizada: <b>ReactJs</b> e <b>Scss</b>
                     </p>
                     <a href={linkProjeto14} className="linksProjetos">Ver Projeto</a>
+                </div>
+
+                <div className="projetos">
+                    <img src={Projeto15} className="projetoImage"></img>
+                    <h4>Hypersomnia</h4>
+                    <p>Hypersomnia é um site que foi pensado para desenvolvedores consumirem suas APIs de forma fácil e rápida.
+                         tecnologias utilizada: <b>HTML</b>, <b>CSS</b>, <b>EcmaScript</b> e <b>NodeJs</b>
+                    </p>
+                    <a href={linkProjeto15} className="linksProjetos">Ver Projeto</a>
                 </div>
 
         </section>  

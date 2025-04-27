@@ -29,8 +29,8 @@ export default function Sobre(props){
                     da Bahia.
                </section>
                <section className='paragrafos'> 
-                    Sou desenvolvedor front-end e 
-                    trabalho com tecnologias como ReactJS, Sass,
+                    Sou desenvolvedor back-end e 
+                    trabalho com tecnologias como NodeJs, ReactJS, Sass,
                      Bootstrap e Tailwind, no entanto, meu objetivo 
                      é expandir minhas habilidades para o back-end, 
                      focando no desenvolvimento de APIs com NodeJs.

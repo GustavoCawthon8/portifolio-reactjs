@@ -6,7 +6,7 @@ export default function Header(){
     const linkGitHub = "https://github.com/GustavoCawthon8";
     const linkLinkedin = "https://www.linkedin.com/in/gustavo-cawthon-a6371b297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";
     const linkYouTube = "https://youtube.com/@gustavocawthon?si=nhSBUeE1YQvbKlPY";
-
+    const linkEmail = "https://contatogcdev.netlify.app/"
     return(
         <section>
             <div style={{
@@ -24,11 +24,9 @@ export default function Header(){
                 flexDirection: "column",
             }}>
                 <h1 id="meuNome"></h1>
-                <p id="sobreMimTxt">Olá, meu nome é Gustavo e sou um desenvolvedor front-end especializado
-                     em <b>HTML</b>, <b>Sass</b>, <b>Tailwind</b> e <b>ReactJs</b>. Atualmente, estou expandindo meus
-                      conhecimentos e planejando ingressar no back-end, com foco no desenvolvimento 
-                      de APIs utilizando <b>NodeJs</b>.
-                </p>\
+                <p id="sobreMimTxt">
+                Olá, meu nome é Gustavo. Sou desenvolvedor <b>Back-End</b> especializado em <b>NodeJS</b> e <b>MongoDB Atlas</b>. Além disso, atuo também como <b>Front-End</b>, utilizando tecnologias como <b>React</b>, <b>Bootstrap</b>, <b>Scss</b> e <b>TailwindCSS</b>.
+                </p>
                 <br></br>
                 <nav id="links">
                     <a href={linkGitHub} className="links" id="github">
@@ -41,6 +39,10 @@ export default function Header(){
 
                     <a href={linkLinkedin} className="links" id="linkedin">
                     <i class="bi bi-linkedin"></i>
+                    </a>
+
+                    <a href={linkEmail} className="links" id="email">
+                    <i class="bi bi-envelope-at-fill"></i>
                     </a>
                 </nav>
 

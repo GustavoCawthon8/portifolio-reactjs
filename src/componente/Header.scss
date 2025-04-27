@@ -114,7 +114,11 @@
 }
 
 #linkedin{
-    @include linksFormatacao(#ffffff, #007bff )
+    @include linksFormatacao(#ffffff, #449dfb )
+}
+
+#email{
+    @include linksFormatacao(#ffffff, #e1ff49 )
 }
 
 #links{
