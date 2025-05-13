@@ -1,11 +1,11 @@
 import React from "react";
-import Banner from "./images/banner.jpg"
+import Banner from "./images/banner2.png"
 import "./Header.scss"
 
 export default function Header(){
     const linkGitHub = "https://github.com/GustavoCawthon8";
     const linkLinkedin = "https://www.linkedin.com/in/gustavo-cawthon-a6371b297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";
-    const linkYouTube = "https://youtube.com/@gustavocawthon?si=nhSBUeE1YQvbKlPY";
+    const linkYouTube = "https://youtube.com/@gustavo_cawthon?si=-J9m_L57VfC-aKho";
     const linkEmail = "https://contatogcdev.netlify.app/"
     return(
         <section>
@@ -23,9 +23,18 @@ export default function Header(){
                 alignItems: "center",
                 flexDirection: "column",
             }}>
-                <h1 id="meuNome"></h1>
+                <h1 id="meuNome">
+                   <span>Desenvolvedor</span> Back-End
+                </h1>
                 <p id="sobreMimTxt">
-                Olá, meu nome é Gustavo. Sou desenvolvedor <b>Back-End</b> especializado em <b>NodeJS</b> e <b>MongoDB Atlas</b>. Além disso, atuo também como <b>Front-End</b>, utilizando tecnologias como <b>React</b>, <b>Bootstrap</b>, <b>Scss</b> e <b>TailwindCSS</b>.
+                   Sou desenvolvedor com 2 anos de experiência, atualmente focado em 
+                   desenvolvimento <b>Back-End</b> com <b>Node.js</b>, <b>Sequelize</b> e <b>PostgreSQL</b>. Tenho 
+                   experiência anterior com <b>Front-End</b> utilizando <b>ReactJs</b>, <b>Scss</b>, <b>Tailwindcss</b>
+                    e <b>Bootstrap</b>, o que me permite atuar como desenvolvedor <b>Fullstack</b> 
+                    quando necessário. Estou aprofundando meus conhecimentos em criação
+                     de APIs RESTful escaláveis, segurança de aplicações e banco de dados
+                      relacionais. Busco constantemente novos desafios e soluções 
+                      eficientes para problemas reais.
                 </p>
                 <br></br>
                 <nav id="links">

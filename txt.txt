@@ -1,0 +1,13 @@
+display: flex;
+overflow-x: auto; /* ou scroll, ambos funcionam */
+flex-wrap: nowrap; /* flex-wrap não aceita "row", use "nowrap" */
+gap: 40px;
+
+/* Ocultar a barra de rolagem */
+scrollbar-width: none; /* Firefox */
+-ms-overflow-style: none;  /* Internet Explorer e Edge antigo */
+}
+
+seletor::-webkit-scrollbar {
+  display: none; /* Chrome, Safari e Edge novo */
+}
